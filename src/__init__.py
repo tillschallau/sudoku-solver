@@ -5,4 +5,3 @@ T = random.choice(list(range(0, 9)), size=(9, 9))
 
 print(T)
 
-print(f"Correct? {sudoku_checker.sudoku_correct(T)}")
